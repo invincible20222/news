@@ -4,7 +4,7 @@ import Image from "../Image/Image";
 import styles from "./styles.module.css";
 
 const NewsBanner = ({ item }) => {
-  console.log(item);
+  
   return (
     <div className={styles.banner}>
       <Image image={item?.image} />
