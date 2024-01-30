@@ -1,13 +1,13 @@
 import styles from "./styles.module.css";
 
-const Search = ({ keyWords, setKeyWords }) => {
+const Search = ({ keywords, setKeywords }) => {
   return (
     <div className={styles.search}>
       <input
         type="text"
-        value={keyWords}
+        value={keywords}
         className={styles.input}
-        onChange={(e) => setKeyWords(e.target.value)}
+        onChange={(e) => setKeywords(e.target.value)}
         placeholder="Js"
       />
     </div>
